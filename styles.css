@@ -72,9 +72,19 @@ margin-left: 500px;
   z-index: 100;
   position: absolute;
   background: blue;
+  border: 36px dashed #00e9fd;
+  color: #36ff45;
   width: 700px;
   height: 273px;
   text-align: center;
   padding-top: 123px;
   display: none;
+}
+#playAgainButton{
+  font-size: 30px;
+font-family: serif;
+background-color: #9C27B0;
+color: coral;
+font-weight: 800;
+border: 27px double yellow;
 }

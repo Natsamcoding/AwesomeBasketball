@@ -1,0 +1,79 @@
+#awesomeBall{
+  font-size: 115px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#JamesHarden{
+  width: 700px;
+  height: 407px;
+  margin-left: 100px;
+  display: inline;
+}
+#vs{
+  font-size: 223px;
+  display: inline;
+}
+#BrandonIngram{
+  width: 700px;
+  display: inline;
+}
+.playerName{
+  font-size: 125px;
+  display: inline;
+}
+#hardenName{
+  margin-left: 95px;
+}
+#ingramName{
+  margin-left: 182px;
+}
+.score {
+display: inline;
+font-size: 180px;
+margin-left: 500px;
+}
+.arrowClass{
+  color: blue;
+}
+.shotButton{
+  font-size: 100px;
+  margin-left: 743px;
+
+}
+.orClass{
+  display: inline;
+  margin-left: 52px;
+  font-size: 100px;
+}
+#filledBoxWithPossession{
+  margin-left: 589px;
+  display: inline-flex;
+}
+#filledBoxWithButtons{
+  margin: 0 auto;
+  padding-left: 543px;
+}
+#twoPointButton{
+  background-color: grey;
+}
+#threePointButton{
+  background-color: grey;
+}
+#resultGif{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 200px;
+}
+#winner{
+  margin-top: 261px;
+  font-size: 100px;
+  margin-left: 544px;
+  z-index: 100;
+  position: absolute;
+  background: blue;
+  width: 700px;
+  height: 273px;
+  text-align: center;
+  padding-top: 123px;
+  display: none;
+}

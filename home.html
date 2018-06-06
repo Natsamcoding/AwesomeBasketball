@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Awesome Basketball</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <img id="resultGif" src="#" alt="">
+    <div id="winner"></div>
+    <h1 id="awesomeBall">AWESOME BASKETBALL</h1>
+    <img id="JamesHarden" src="https://img.bleacherreport.net/img/images/photos/003/680/189/hi-res-128daa4aeb2819b3c21a6f23dfec1649_crop_north.jpg?h=533&w=800&q=70&crop_x=center&crop_y=top" alt="">
+    <div id="vs">vs</div>
+    <img id="BrandonIngram" src="http://22928-presscdn.pagely.netdna-cdn.com/wp-content/uploads/2017/12/Brandon-Ingram-17.jpg" alt="">
+    <br>
+    <div id="hardenScore" class="score">0</div>
+    <div id="ingramScore" class="score">0</div>
+    <br>
+    <div class="playerName" id="hardenName">JamesHarden</div>
+    <div class="playerName" id="ingramName">BrandonIngram</div>
+    <br>
+    <div id="filledBoxWithPossession">
+      <div class="orClass arrowClass" id="hardenArrow"> << </div>
+      <div class="orClass">POS</div>
+      <div class="orClass arrowClass" id="ingramArrow"> >> </div>
+    </div>
+    <br>
+    <div id="filledBoxWithButtons">
+      <button type="button" name="button" class="orClass" id="twoPointButton" onclick="shotSelection(this)">2PT</button>
+      <div class="orClass"> OR </div>
+      <button type="button" name="button" class="orClass" id="threePointButton" onclick="shotSelection(this)">3PT</button>
+    </div>
+    <div>
+      <button type="button" name="button" id="shotButtonid" class="shotButton" onclick="shoot()">SHOOT</button>
+    </div>
+    <script src="game.js"></script>
+  </body>
+</html>
